@@ -1,12 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# give one md file
-
-Certainly! Here’s a complete `README.md` file for your Enterprise Full Stack Learning Management Application project. You can copy and use this as your GitHub README:
-
----
-
-```markdown
 # Enterprise Full Stack Learning Management Application
 
 A scalable, enterprise-grade Learning Management System (LMS) built with **Next.js**, **Node.js**, and **AWS**. This project demonstrates a modern full-stack architecture, robust authentication, seamless payment integration, and cloud deployment.
