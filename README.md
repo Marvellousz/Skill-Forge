@@ -64,8 +64,8 @@ A scalable, enterprise-grade Learning Management System (LMS) built with **Next.
 
 1. **Clone the repository**
 ```
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Marvellousz/Skill-Forge.git
+cd Skill-Forge
 ```
 
 2. **Install dependencies**
