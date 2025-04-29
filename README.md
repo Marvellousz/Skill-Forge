@@ -1,4 +1,4 @@
-# Enterprise Full Stack Learning Management Application
+# Skill-Forge
 
 A scalable, enterprise-grade Learning Management System (LMS) built with **Next.js**, **Node.js**, and **AWS**. This project demonstrates a modern full-stack architecture, robust authentication, seamless payment integration, and cloud deployment.
 
