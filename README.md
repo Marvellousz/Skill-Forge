@@ -64,16 +64,12 @@ A scalable, enterprise-grade Learning Management System (LMS) built with **Next.
 
 1. **Clone the repository**
 ```
-
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-
 ```
 
 2. **Install dependencies**
 ```
-
-
 # Frontend
 
 cd frontend
@@ -83,7 +79,6 @@ npm install
 
 cd ../backend
 npm install
-
 ```
 
 3. **Set up environment variables**
@@ -92,23 +87,19 @@ Create `.env` files in both `frontend` and `backend` directories. Example variab
 
 **Frontend**
 ```
-
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 NEXT_PUBLIC_STRIPE_PUBLIC_KEY=your_stripe_public_key
 NEXT_PUBLIC_API_URL=https://your-backend-api-url
-
 ```
 
 **Backend**
 ```
-
 CLERK_SECRET_KEY=your_clerk_secret_key
 STRIPE_SECRET_KEY=your_stripe_secret_key
 AWS_ACCESS_KEY_ID=your_aws_access_key
 AWS_SECRET_ACCESS_KEY=your_aws_secret_key
 DYNAMODB_TABLE_NAME=your_table_name
 S3_BUCKET_NAME=your_bucket_name
-
 ```
 
 4. **Run locally**
@@ -126,11 +117,9 @@ S3_BUCKET_NAME=your_bucket_name
 
 5. **Docker (Backend)**
 ```
-
 cd backend
 docker build -t lms-backend .
 docker run -p 5000:5000 lms-backend
-
 ```
 
 ---
@@ -149,12 +138,10 @@ docker run -p 5000:5000 lms-backend
 ## 📚 Project Structure
 
 ```
-
 /frontend      \# Next.js app (UI, state, client logic)
 /backend       \# Node.js/Express API (business logic, AWS integration)
 /diagrams      \# System architecture and data models
 /assets        \# Images, icons, and other assets
-
 ```
 
 
