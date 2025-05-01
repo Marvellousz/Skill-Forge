@@ -2,9 +2,7 @@
 
 A scalable, enterprise-grade Learning Management System (LMS) built with **Next.js**, **Node.js**, and **AWS**. This project demonstrates a modern full-stack architecture, robust authentication, seamless payment integration, and cloud deployment.
 
----
-
-## 🚀 Tech Stack
+## Tech Stack
 
 **Frontend**
 - Next.js
@@ -36,7 +34,7 @@ A scalable, enterprise-grade Learning Management System (LMS) built with **Next.
 
 ---
 
-## 📦 Features
+## Features
 
 - **Modern UI:** Responsive, accessible, and beautiful interface using Tailwind CSS and Shadcn UI.
 - **Authentication:** Seamless user management with Clerk.
@@ -49,7 +47,7 @@ A scalable, enterprise-grade Learning Management System (LMS) built with **Next.
 
 ---
 
-## 🛠️ Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -124,7 +122,7 @@ docker run -p 5000:5000 lms-backend
 
 ---
 
-## 🛡️ Architecture Overview
+## Architecture Overview
 
 - **Frontend:** Next.js app deployed on Vercel
 - **Backend:** Node.js/Express.js APIs on AWS Lambda via API Gateway, containerized with Docker
@@ -135,7 +133,7 @@ docker run -p 5000:5000 lms-backend
 
 ---
 
-## 📚 Project Structure
+## Project Structure
 
 ```
 /frontend      \# Next.js app (UI, state, client logic)
