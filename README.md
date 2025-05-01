@@ -32,8 +32,6 @@ A scalable, enterprise-grade Learning Management System (LMS) built with **Next.
 - Vercel (Frontend)
 - AWS (Backend)
 
----
-
 ## Features
 
 - **Modern UI:** Responsive, accessible, and beautiful interface using Tailwind CSS and Shadcn UI.
@@ -44,8 +42,6 @@ A scalable, enterprise-grade Learning Management System (LMS) built with **Next.
 - **Serverless Backend:** Scalable APIs with AWS Lambda and API Gateway.
 - **Cloud Storage & CDN:** Asset storage on S3, globally distributed via CloudFront.
 - **Containerization:** Dockerized backend for easy local development and cloud deployment.
-
----
 
 ## Getting Started
 
@@ -120,8 +116,6 @@ docker build -t lms-backend .
 docker run -p 5000:5000 lms-backend
 ```
 
----
-
 ## Architecture Overview
 
 - **Frontend:** Next.js app deployed on Vercel
@@ -130,8 +124,6 @@ docker run -p 5000:5000 lms-backend
 - **Storage:** AWS S3 for file uploads, distributed via CloudFront
 - **Authentication:** Clerk for secure, modern auth flows
 - **Payments:** Stripe integration for billing and subscriptions
-
----
 
 ## Project Structure
 
